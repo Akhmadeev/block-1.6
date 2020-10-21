@@ -1,0 +1,39 @@
+.widget {
+	max-width: 320px;
+	margin: 0 auto;
+	@media (min-width: 768px) {
+		max-width: 768px;
+	}
+	@media (min-width: 1120px) {
+		max-width: 1120px;
+	}
+}
+.widget__btn-open {
+	display: none;
+	cursor: pointer;
+	@media (min-width: 768px) {
+		display: block;
+	}
+}
+@media (min-width: 768px) {
+	.widget__btn{
+		min-width: 140px;
+		height: 24px;
+		background-color: #F2F2F2;
+		border: none;
+		color: #1B1C21;
+		margin-left: 16px;
+		cursor: pointer;
+		white-space: nowrap;
+		margin-left: 24px;
+		margin-bottom: 24px;
+	}
+	.widget__btn--open::before {
+		content: url(../img/icon/icon.svg);
+		margin-right: 8px;
+	}
+	.widget__btn--close::before {
+		content: url(../img/icon/icon1.svg);
+		margin-right: 8px;
+	}
+}

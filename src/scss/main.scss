@@ -1,0 +1,17 @@
+
+main {
+	width: 100%;
+	min-height: 409px;
+	background-color: #F8F8F8;
+	
+}
+
+.main__menu {
+	position: relative;
+	@media (min-width: 1120px) {
+		width: 1096px;
+		padding-top: 10px;
+		display: flex;
+		align-items: center;
+	}
+}

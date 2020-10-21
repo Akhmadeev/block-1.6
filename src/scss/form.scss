@@ -1,0 +1,63 @@
+
+.formAnimation_close {
+    transform: translateX(350px);
+    transition-duration:  1s;
+}
+.formAnimation_open {
+    transform: translateX(0);
+    transition-duration:  1s;
+}
+.form-list {
+	max-width: 320px;
+	
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #fff;
+	right: 0;
+	top: 0;
+	z-index: 3;
+	overflow: scroll;
+	box-shadow: 0 15px 30px 30px #F2F2F2;
+}
+.form-list__desc {
+	width: 272px;
+	height: 48px;
+	background: #FFFFFF;
+	border: 1px solid #EAEAEA;
+	border-radius: 8px;
+	margin-left: 16px;
+	margin-bottom: 16px;
+	padding-left: 16px;
+}
+.form-list__desc--text {
+	padding-top: 16px;
+	height: 118px;
+	top: 0;
+}
+.form-list__text {
+	display: block;
+	margin-left: 16px;
+	margin-right: 16px;
+	font-family: 'TT Lakes Regular';
+	font-size: 14px;
+	line-height: 16px;
+	color: #7E7E82;	
+}
+.form-list__link {
+	color: #FF3E79;
+	text-decoration: none;
+}
+.form-call-list {
+	max-width: 320px;
+	
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #fff;
+	right: 0;
+	top: 0;
+	overflow: scroll;
+	z-index: 3;
+	box-shadow: 0 15px 30px 30px #F2F2F2;
+}

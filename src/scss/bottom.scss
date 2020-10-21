@@ -1,0 +1,48 @@
+.bottom_menu{
+    align-self: flex-start;
+}
+
+.btn_bottom {
+    display: flex
+}
+
+.bottom-info__mail {
+    margin-top: 16px;
+    font-family: 'TT Lakes Medium';
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1C21;
+
+}
+.bottom-info__left {
+    margin-left: 24px;
+}
+.bottom-info__tel {
+    font-family: 'TT Lakes Bold';
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 12px;
+    color: #1B1C21;
+}
+.bottom-info__mail, .bottom-info__tel {
+    display: block;
+    text-decoration: none;
+}
+.bottom-info__tel{
+    margin-bottom: 40px;
+}
+
+.bottom-info__button {
+    height: 24px;
+    width: 24px;
+    border: none;
+    background-color: #fff;
+    margin-right: 8px;
+    cursor: pointer;
+    color: #1B1C21;
+    margin-bottom: 32px;
+}
+.bottom-info__button:hover {
+    transition-duration: .5s;
+    color: #7E7E82;
+}

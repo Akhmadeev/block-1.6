@@ -1,0 +1,19 @@
+.logo_grup {
+	@media (min-width: 1440px) {
+		display: flex;
+		align-items: center;
+	}
+}
+.logo_grup__title {
+	display: none;
+	font-family: 'TT Lakes Medium';
+	font-weight: 600;
+	white-space: nowrap;
+	@media (min-width: 1440px) {
+		display: block;
+		margin-right: 15px;
+		font-size: 16px;
+		line-height: 24px;
+		color: #1B1C21;
+	}
+}

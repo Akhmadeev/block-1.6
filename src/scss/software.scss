@@ -1,0 +1,132 @@
+.software {
+	width: 100%;
+	background-color: #F2F2F2;
+	margin: 0, auto;
+}
+.software-container {
+	padding-left: 16px;
+	margin-bottom: 26px;
+	min-height: 110px;
+	margin: 0 auto;
+	@media (min-width: 768px) {
+		flex-wrap: wrap;
+		display: flex;
+		padding-left: 24px;
+		max-width: 768px;
+		height: auto;
+	}
+	@media (min-width: 1120px) {
+		padding-left: 32px;
+		max-width: 1120px;
+	}	
+}
+.software-container--xl {
+	min-height: 200px;
+}
+.software-container:last-child {
+	margin-left: 16px;
+}
+.software-slide {
+	max-width: 240px;
+	height: 72px;
+	display: flex;
+	align-items: center;
+	background: #FFFFFF;
+	border: 1px solid #EAEAEA;
+	cursor: pointer;
+	box-sizing: border-box;
+	border-radius: 6px;
+	margin-bottom: 16px;
+	@media (min-width: 768px) {
+		width: 224px;
+		height: 72px;
+		display: flex;
+		align-items: center;
+		background: #FFFFFF;
+		border: 1px solid #EAEAEA;
+		box-sizing: border-box;
+		border-radius: 6px;
+		margin-right: 24px;
+	}
+	@media (min-width: 1120px) {
+		width: 240px;
+		margin-right: 32px;
+	}
+}
+.software__logo {
+	display: block;
+	margin-left: 16px;
+	margin-right: auto;
+}
+.software__btn {
+	position: absolute;
+	right: 16px;
+	bottom: 16px;
+	height: 40px;
+	width: 40px;
+	outline: none;
+	background-image: url(../img/logo/go.svg);
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.software__text {
+	position: absolute;
+	left: 16px;
+	top: 16px;
+	font-family: 'TT Lakes Regular';
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #1B1C21;
+}
+
+.software-slideXl {
+	max-width: 240px;
+	height: 160px;
+	display: flex;
+	position: relative;
+	align-items: center;
+	background: #FFFFFF;
+	border: 1px solid #EAEAEA;
+	cursor: pointer;
+	box-sizing: border-box;
+	border-radius: 6px;
+	margin-bottom: 16px;
+	@media (min-width: 768px) {
+		width: 224px;
+		height: 160px;
+		display: flex;
+		align-items: center;
+		background: #FFFFFF;
+		border: 1px solid #EAEAEA;
+		box-sizing: border-box;
+		border-radius: 6px;
+		margin-right: 24px;
+	}
+	@media (min-width: 1120px) {
+		width: 240px;
+		margin-right: 32px;
+	}
+}
+.software-slide__md {
+	@media (min-width: 768px) {
+		display: none;
+	}
+	@media (min-width: 1120px) {
+		display: flex;
+	}
+}
+.software-slide__xl {
+	@media (min-width: 1120px) {
+		display: none;
+
+	}
+}
+
+.software__table {
+	@media (min-width: 768px) {
+		display: none;
+	}
+}

@@ -1,0 +1,90 @@
+@import 'normalize.scss';
+@import 'header.scss';
+@import 'modal-btn.scss';
+@import 'main.scss';
+@import 'content.scss';
+@import 'logo_grup.scss';
+@import 'sibeMenu.scss';
+@import 'aside.scss';
+@import 'section.scss';
+@import 'logo_CPS.scss';
+@import 'button_further.scss';
+@import 'body.scss';
+@import 'container.scss';
+
+@import '../../node_modules/swiper/swiper-bundle.min.css';
+//@import 'swiper.scss';
+//@import 'swiper-bundle.min.scss';
+@import 'gradient.scss';
+@import 'btn-open.scss';
+@import 'widget.scss';
+@import 'software.scss';
+@import 'servicesosoft.scss';
+@import 'menu.scss';
+@import 'sidebar.scss';
+@import 'bottom.scss';
+@import 'form.scss';
+@import 'sale.scss';
+@import 'subtitle.scss';
+@import 'table.scss';
+@import 'footer.scss';
+@import 'hidden.scss';
+@import 'heading.scss';
+
+
+
+@font-face {
+  font-family: 'TT Lakes Regular';
+  src: url('../fonts/TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes Medium';
+  src: url('../fonts/TTLakes-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes Bold';
+  src: url('../fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: Bold;
+  font-style: normal;
+}
+body {
+  @media (min-width: 1440px) {
+    background: #F8F8F8;
+		
+	}
+}
+.desctop {
+  @media (min-width: 1440px) {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+
+		
+	}
+  
+
+}
+.page {
+  @media (min-width: 1440px) {
+  position: relative;
+  width: calc(100vw - 320px);
+    max-width: 1120px;
+    right: 0;
+  }
+}
+
+.desctop_menu {
+  display: block;
+  height: 100%;
+  width: 320px;
+  bottom: 0;
+  background-color: #fff;
+}
+
+.no_scroll{
+  overflow: hidden;
+}

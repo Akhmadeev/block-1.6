@@ -1,0 +1,11 @@
+.logo_CPS {
+	width: 320px;
+	border-radius: 5px;
+	
+	@media (min-width: 768px) {
+		width: 360px;
+	}
+	@media (min-width: 1120px) {
+		width: 532px;
+	}
+}

@@ -1,0 +1,33 @@
+.sale__btn {
+	width: 80px;
+	height: 32px;
+	font-family: 'TT Lakes Medium';
+	font-size: 12px;
+	line-height: 24px;
+	display: flex;
+	padding-left: 12px;
+	align-items: center;
+	margin: auto 0;
+	color: #fff;
+	background: #FF3E79;
+	border-radius: 16px;
+	border: none;
+}
+.sale__btn::after {
+	content: "";
+	margin-left: 9px;
+	width: 7px;
+	height: 9px;
+	background-image: url(../img/icon/dropdown@2x.svg);
+}
+.sale__btn--software {
+	position: absolute;
+	right: 16px;
+	bottom: 16px;
+}
+.sale__btn--form {
+	width: 100px;
+	padding-left: 15px;
+	margin-top: 18px;
+	margin-left: 168px;
+}

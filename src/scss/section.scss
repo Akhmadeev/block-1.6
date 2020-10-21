@@ -1,0 +1,23 @@
+.section{
+	display: flex;
+	flex-wrap:wrap;
+	justify-self: space-around;
+	@media (min-width: 768px) {
+		flex-wrap: nowrap;
+	}
+}
+.section_img {
+	min-width: 320px; 
+	min-height: 176px;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	@media (min-width: 768px) {
+		width: 360px;
+		height: 208px;
+	}
+	@media (min-width: 1120px) {
+		width: 532px;
+		height: 307px;
+	}
+}

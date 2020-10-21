@@ -1,0 +1,10 @@
+.swiper-container {
+	max-width: 320px;
+
+}
+.swiper-pagination {
+	
+	@media (min-width: 768px) {
+		display: none;
+	}
+}

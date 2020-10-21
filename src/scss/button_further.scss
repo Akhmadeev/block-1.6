@@ -1,0 +1,21 @@
+.button_further{
+	width: 140px;
+	height: 24px;
+	background-color: #F8F8F8;
+	border: none;
+	color: #1B1C21;
+	margin-left: 16px;
+	cursor: pointer;
+	white-space: nowrap;
+	@media (min-width: 768px) {
+		margin-left: 24px;
+	}
+	@media (min-width: 1120px) {
+
+		display: none;
+	}
+}
+.button_further::before{
+	content: url(../img/icon/icon.svg);
+	margin-right: 8px;
+}

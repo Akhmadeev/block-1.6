@@ -1,0 +1,59 @@
+.menu{
+    list-style: none;
+    padding:0;
+    padding-left: 24px;
+
+}
+.menu__item{
+    padding: 0;
+    margin: 0;
+        overflow: hidden;
+}
+.menu__link{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'TT Lakes Medium';
+    color:#1B1C21;
+    margin-bottom: 22px;
+    white-space: nowrap;
+    font-size: 16px;    
+    line-height: 24px;
+}
+.menu__link--top{
+    margin-top: 50px;
+}
+.menu__link::before {
+    content:'';
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 0;
+    background: #fff;
+}
+.menu__link:hover::before {
+    content:'';
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 32px;
+    left: 0;
+    transition-duration: 1s;
+    transition: transformY(-18px);
+    transform-origin: bottom ;
+    background: #41F6D7;
+}
+
+.menu__link:hover {
+    transition-duration: .5s;
+    color: #7E7E82;
+}
+.menu-language{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    font-family: 'TT Lakes Medium';
+
+}
